@@ -14,3 +14,5 @@ FNV.hash64a(data) // BigInt = 4094109891673226228
 ```
 
 Test cases were taken from [here](http://www.isthe.com/chongo/src/fnv/test_fnv.c).
+
+<a href='https://bintray.com/philipsoutham/maven/scala-fnv/view?source=watch' alt='Get automatic notifications about new "scala-fnv" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
