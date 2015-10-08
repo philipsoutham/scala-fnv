@@ -773,7 +773,7 @@ class FNVSpec extends UnitSpec {
     assert(correctHash32a.length == 148)
     assert(correctHash64a.length == 148)
   }
-  "FNV-1 hash32" must "match reference data" in {
+  "FNV hash32" must "match reference data" in {
     data.zip(correctHash32).foreach { x =>
       assert(FNV.hash32(x._1) == x._2)
     }
