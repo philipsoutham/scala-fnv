@@ -14,7 +14,7 @@ FNV.hash64a(data) // BigInt = 4094109891673226228
 ```
 ### Tests
 Test cases were taken from [here](http://www.isthe.com/chongo/src/fnv/test_fnv.c).
-```shell
+```bash
 $ sbt test
 ...
 [info] FNVSpec:
